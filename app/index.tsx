@@ -6,20 +6,20 @@ const bgImagePath = "../assets/images/executor.png";
 const title = "Homepage";
 const buttons = [
   {
-    title: "Button 1",
-    path: "tabs/sample_page1/index",
+    title: "List",
+    path: "tabs/list",
     backgroundColor: "#3B82F6", // Tailwind blue-500
     color: "#FFFFFF",
   },
   {
-    title: "Button 2",
-    path: "tabs/sample_page2/index",
+    title: "Input",
+    path: "tabs/input",
     backgroundColor: "#10B981", // Tailwind emerald-500
     color: "#FFFFFF",
   },
   {
-    title: "Button 3",
-    path: "tabs/sample_page3/index",
+    title: "Info",
+    path: "tabs/info",
     backgroundColor: "#F59E0B", // Tailwind amber-500
     color: "#FFFFFF",
   },
