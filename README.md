@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# Modular Button Screen
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A customizable and modern React Native screen using `expo-router`. This screen features a full-screen background image, a title, and a set of rounded navigation buttons styled with vibrant colors and shadows.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Easy-to-edit configuration for the title, background image, and buttons
+- Stylish, rounded buttons with shadow and color customization
+- Seamless navigation using `router.push()` from `expo-router`
+- Clean and centered layout suitable for landing or menu screens
+- Modular design for quickly linking to pages with unique functionality
 
-   ```bash
-   npm install
-   ```
+## Usage
 
-2. Start the app
+1. Modify the `title`, `bgImagePath`, and `buttons` array at the top of the file.
+2. Each button object should include:
+   - `title`: Button label
+   - `path`: Route to navigate using `router.push(path)`
+   - `backgroundColor`: Button background color
+   - `color`: Text color
+3. Place your background image in the `assets/images` folder and ensure the path is correct.
+4. Use this screen as a home, dashboard, or navigation hub for your app.
 
-   ```bash
-   npx expo start
-   ```
+## Requirements
 
-In the output, you'll find options to open the app in a
+- React Native with Expo
+- `expo-router`
+- Image asset for background
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This layout is modular — just update the config values at the top to change content without modifying the layout logic. Perfect for prototyping or multi-page app dashboards.
