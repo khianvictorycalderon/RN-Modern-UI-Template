@@ -1,4 +1,6 @@
-# Modular Button Screen
+# Modular Template
+
+![Actual Image](./sample.jpg)
 
 A customizable and modern React Native screen using `expo-router`. This screen features a full-screen background image, a title, and a set of rounded navigation buttons styled with vibrant colors and shadows.
 
